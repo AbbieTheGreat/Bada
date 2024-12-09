@@ -10,7 +10,7 @@ public class Airline {
         Scanner scan = new Scanner(System.in);
         ArrayList<String> placelist = new ArrayList<String>();
         placelist.add("Seat NOt");
-        placelist.add("Seat Available");
+        placelist.add("Seat eme");
         placelist.add("Seat Available");
         placelist.add("Seat Available");
 
@@ -60,11 +60,7 @@ public class Airline {
                     		o=p-1;
                    		placelist.set(o,"RESERVED");
                     		 
-                            System.out.print("\nCongrats! Your seat is valid and reserved for you!");
-                    		System.out.println("\nAirplane Seats");
-                    		for(int i=0;i<placelist.size();i++){
-                        		System.out.printf("(%d)%s\n",i+1,placelist.get(i));
-                    			}
+                         
 
                        	System.out.println("\nDo you want to reserved another seats?  [y|n]: ");
                     		option1=scan.next().charAt(0);
