@@ -9,17 +9,11 @@ public class Airline {
                
         Scanner scan = new Scanner(System.in);
         ArrayList<String> placelist = new ArrayList<String>();
+        placelist.add("Seat NOt");
         placelist.add("Seat Available");
         placelist.add("Seat Available");
         placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        placelist.add("Seat Available");
-        
+
         boolean isContinue=true;
         
         while (isContinue) {
